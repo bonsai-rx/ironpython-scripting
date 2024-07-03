@@ -2,17 +2,16 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <Title>Bonsai - IronPython Scripting Design Library</Title>
-    <Description>Bonsai Design Library containing editor classes for IronPython scripting in Bonsai.</Description>
+    <Description>Bonsai Design Library containing editor classes for IronPython scripting.</Description>
     <PackageTags>Bonsai Rx Scripting Iron Python Design</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
     <TargetFramework>net462</TargetFramework>
-    <VersionPrefix>2.8.0</VersionPrefix>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Bonsai.Design" Version="2.8.0" />
     <PackageReference Include="jacobslusser.ScintillaNET" Version="3.6.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bonsai.Design\Bonsai.Design.csproj" />
     <ProjectReference Include="..\Bonsai.Scripting.IronPython\Bonsai.Scripting.IronPython.csproj" />
   </ItemGroup>
 </Project>

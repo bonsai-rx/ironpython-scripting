@@ -2,16 +2,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Title>Bonsai - IronPython Scripting Library</Title>
-    <Description>Bonsai Scripting Library containing IronPython scripting infrastructure for Bonsai.</Description>
+    <Description>Bonsai Scripting Library containing IronPython scripting infrastructure.</Description>
     <PackageTags>Bonsai Rx Scripting Iron Python</PackageTags>
     <TargetFramework>net462</TargetFramework>
-    <VersionPrefix>2.8.0</VersionPrefix>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Bonsai.Core" Version="2.8.0" />
     <PackageReference Include="IronPython" Version="2.7.5" />
     <PackageReference Include="IronPython.StdLib" Version="2.7.5" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bonsai.Core\Bonsai.Core.csproj" />
   </ItemGroup>
 </Project>

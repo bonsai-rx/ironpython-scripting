@@ -1,9 +1,9 @@
-bin
-obj
-packages
+.bonsai/Bonsai.exe*
+.bonsai/Packages/
+.bonsai/Settings/
+.vs/
+/artifacts/
 *.Generated.cs
 *.orig
 *.user
 *.suo
-*.exe
-.vs

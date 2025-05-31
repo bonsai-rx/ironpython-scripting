@@ -1,9 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Title>Bonsai - IronPython Scripting Design Library</Title>
     <Description>Bonsai Design Library containing editor classes for IronPython scripting.</Description>
-    <PackageTags>Bonsai Rx Scripting Iron Python Design</PackageTags>
+    <PackageTags>$(PackageTags) Design</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
     <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
